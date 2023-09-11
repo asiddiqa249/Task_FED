@@ -1,0 +1,85 @@
+  h1 {
+      background-color: rgb(98, 130, 44);
+      color: aliceblue;
+  }
+
+  h3 {
+      background-color: rgb(98, 130, 44);
+  }
+
+  #starters {
+      margin-bottom: 120px;
+  }
+
+  #veg {
+      margin-bottom: 120px;
+  }
+
+  #Non-veg {
+      margin-bottom: 120px;
+  }
+
+  nav {
+      background-color: rgb(98, 130, 44);
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  a {
+      color: black;
+  }
+
+  .chat_box {
+      background-color: rgb(110, 110, 107);
+      padding: 10px;
+      border: 2px solid black;
+      width: 400px;
+      height: 350px;
+      position: fixed;
+      right: 50px;
+      bottom: 100px;
+  }
+
+  input {
+      width: 350px;
+  }
+
+  button {
+      border: 1px solid black;
+      border-radius: 5px;
+  }
+
+  h2 {
+      background-color: rgb(240, 243, 245);
+      margin: 0 0;
+      padding: 10px 0;
+  }
+
+  p {
+      font-size: 18px;
+      border-radius: 5px;
+  }
+
+  #img1 {
+      position: absolute;
+      color: white;
+      bottom: 400px;
+      left: 300px;
+      font-size: 40px;
+      font-weight: 700;
+      background-color: rgb(84, 100, 56);
+  }
+
+  #img2 {
+      position: absolute;
+      color: white;
+      bottom: 400px;
+      right: 300px;
+      font-size: 40px;
+      font-weight: 700;
+      background-color: rgb(84, 100, 56);
+  }
+  #Location{
+    width: 100%;
+    height: 300px;
+  }
