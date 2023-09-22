@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji before list</title>
+    <style>
+        h1{
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        ul{
+            list-style: none;
+            /*margin-left: 45%;*/
+            text-align: center;
+            font-size: larger;
+        }
+        ul li:nth-child(1)::before{
+            content: '🍌';
+        }
+        ul li:nth-child(2)::before{
+            content: '🍎';
+        }
+        ul li:nth-child(3)::before{
+            content: '🥭';
+        }
+        ul li:nth-child(4)::before{
+            content: '🥝';
+        }
+        ul li:nth-child(5)::before{
+            content: '🍍';
+        }
+        ul li:nth-last-child(5)::before{
+            content: '🍉';
+        }
+        ul li:nth-last-child(4)::before{
+            content: '🍓';
+        }
+        ul li:nth-last-child(3)::before{
+            content: '🍒';
+        }
+        ul li:nth-last-child(2)::before{
+            content: '🍇';
+        }
+        ul li:nth-last-child(1)::before{
+            content: '🥝';
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Friuts Names
+    </h1>
+    <ul>
+        <li>Banana</li>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Kiwi</li>
+        <li>Pineapple</li>
+        <li>Watermelon</li>
+        <li>Strawberry</li>
+        <li>Cherry</li>
+        <li>Grapes</li>
+        <li>Avocado</li>
+    </ul>
+</body>
+</html>
